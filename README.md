@@ -81,7 +81,7 @@ This query:
 5. Save the report.
 
 📸 **Screenshot:**  
-![Bar Chart](https://git)
+![Bar Chart](https://github.com/Gebrin86/SIEM-Splunk/blob/ba03bf0dd6dde3bc94046297d2f98448498e796a/images/splunkchart.png)
 
 
 ---
