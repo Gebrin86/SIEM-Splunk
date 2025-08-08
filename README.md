@@ -1,10 +1,10 @@
-# 🛡️ Linux Authentication Log Analysis using Splunk (SIEM Project)
+# Linux Authentication Log Analysis using Splunk (SIEM Project)
 
 This beginner-friendly SIEM project demonstrates how to use Splunk to detect failed SSH login attempts from a Linux system authentication log. It's an example of how a Security Operations Center (SOC) analyst might perform log analysis and visualize suspicious IP activity.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Import and analyze a Linux `auth.log` file in Splunk.
 - Search for "Failed password" login attempts.
@@ -13,7 +13,7 @@ This beginner-friendly SIEM project demonstrates how to use Splunk to detect fai
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - **Splunk Enterprise (Free Trial)** — as the SIEM platform
 - **auth.log** — Linux authentication log
@@ -22,7 +22,7 @@ This beginner-friendly SIEM project demonstrates how to use Splunk to detect fai
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 splunk-linux-auth-log-analysis/
@@ -71,7 +71,7 @@ index=main "Failed password"
 | stats count by src_ip
 ```
 
-✅ This query:
+ This query:
 - Filters logs with "Failed password"
 - Extracts source IPs from each log line
 - Counts how many times each IP failed
@@ -97,7 +97,7 @@ index=main "Failed password"
 
 ---
 
-## 📊 Result
+## Result
 
 You now have a chart showing which IPs attempted to log in and how many times they failed.
 
@@ -108,7 +108,7 @@ This can help detect:
 
 ---
 
-## 🔐 Why This Matters for SIEM
+## Why This Matters for SIEM
 
 Security Information and Event Management (SIEM) platforms like Splunk are essential for real-time security monitoring. In real SOC roles, analysts often:
 - Ingest logs from systems
@@ -135,7 +135,7 @@ To show these in GitHub:
 
 ---
 
-## 🚀 What's Next?
+## What's Next?
 
 - Set alert thresholds (e.g., alert if an IP has more than 5 failed attempts)
 - Use external IP reputation feeds to classify known bad actors
@@ -143,7 +143,7 @@ To show these in GitHub:
 
 ---
 
-## 👤 Author
+## Author
 
 **Gebrin Alvarez**  
 📧 gebrinalvarez@gmail.com  
