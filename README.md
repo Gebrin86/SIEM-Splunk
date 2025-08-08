@@ -42,28 +42,25 @@ splunk-linux-auth-log-analysis/
 ## 🧪 Project Steps
 ### 1. Upload `auth.log` to Splunk 
 
-1. Open Splunk and go to:  
-   ![Step 1 - Open Splunk](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step1_open_splunk.png?raw=true)
+1. Choose your `auth.log` file. 
+   ![Step 1 - Open Splunk](https://github.com/Gebrin86/SIEM-Splunk/blob/58bbcb116b709e1271fccd6718cd534bf5effbe8/images/splunk0.png)
 
-2. Choose your `auth.log` file.  
-   ![Step 2 - Choose File](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step2_choose_file.png?raw=true)
-
-3. Set the index to:  
+2. Set the index to:  
    ```
    index = main
    ```
    ![Step 3 - Set Index](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step3_set_index.png?raw=true)
 
-4. Set the sourcetype to:  
+3. Set the sourcetype to:  
    ```
    sourcetype = linux_secure
    ```
    ![Step 4 - Set Sourcetype](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step4_set_sourcetype.png?raw=true)
 
-5. Finish setup.  
+4. Finish setup.  
    ![Step 5 - Finish](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step5_finish.png?raw=true)
 
-6. Start searching.  
+5. Start searching.  
    ![Step 6 - Search](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step6_search.png?raw=true)
 
 📸 **Screenshot of Full Upload Process:**  
