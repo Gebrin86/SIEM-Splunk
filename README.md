@@ -49,7 +49,7 @@ splunk-linux-auth-log-analysis/
    ```
    index = main
    ```
-   ![Step 3 - Set Index](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step3_set_index.png?raw=true)
+   ![Step 3 - Set Index](https://github.com/Gebrin86/SIEM-Splunk/blob/18bada7fa58cc0940018edc4cfea181e008f7a3e/images/splunk1.png)
 
 3. Set the sourcetype to:  
    ```
