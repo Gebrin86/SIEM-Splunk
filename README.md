@@ -40,26 +40,34 @@ splunk-linux-auth-log-analysis/
 ---
 
 ## 🧪 Project Steps
+### 1. Upload `auth.log` to Splunk 
 
-### 1. Upload `auth.log` to Splunk
+1. Open Splunk and go to:  
+   ![Step 1 - Open Splunk](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step1_open_splunk.png?raw=true)
 
-1. Open Splunk and go to:
-   ```
-   Settings → Add Data → Upload
-   ```
-2. Choose your `auth.log` file.
-3. Set the index to:
+2. Choose your `auth.log` file.  
+   ![Step 2 - Choose File](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step2_choose_file.png?raw=true)
+
+3. Set the index to:  
    ```
    index = main
    ```
-4. Set the sourcetype to:
+   ![Step 3 - Set Index](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step3_set_index.png?raw=true)
+
+4. Set the sourcetype to:  
    ```
    sourcetype = linux_secure
    ```
-5. Finish and start searching.
+   ![Step 4 - Set Sourcetype](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step4_set_sourcetype.png?raw=true)
 
-📸 **Screenshot:**  
-![Upload auth.log](images/upload_auth_log.png)
+5. Finish setup.  
+   ![Step 5 - Finish](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step5_finish.png?raw=true)
+
+6. Start searching.  
+   ![Step 6 - Search](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step6_search.png?raw=true)
+
+📸 **Screenshot of Full Upload Process:**  
+![Upload auth.log](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/upload_auth_log.png?raw=true)
 
 ---
 
@@ -71,13 +79,13 @@ index=main "Failed password"
 | stats count by src_ip
 ```
 
- This query:
+This query:
 - Filters logs with "Failed password"
 - Extracts source IPs from each log line
 - Counts how many times each IP failed
 
 📸 **Screenshot:**  
-![SPL Query Result](images/spl_query_result.png)
+![SPL Query Result](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/spl_query_result.png?raw=true)
 
 ---
 
@@ -93,7 +101,8 @@ index=main "Failed password"
 5. Save the report.
 
 📸 **Screenshot:**  
-![Bar Chart](images/bar_chart.png)
+![Bar Chart](https://git)
+
 
 ---
 
