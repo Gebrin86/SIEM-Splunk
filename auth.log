@@ -1,0 +1,7 @@
+Feb 10 15:45:09 ubuntu sshd[47341]: Failed password for root from 103.106.189.143 port 60824 ssh2
+Feb 10 15:45:11 ubuntu sshd[47341]: Connection closed by authenticating user root 103.106.189.143 port 60824 [preauth]
+Feb 10 15:45:16 ubuntu sshd[47343]: Failed password for root from 180.101.88.228 port 11349 ssh2
+Feb 10 15:45:21 ubuntu sshd[47345]: Failed password for root from 103.106.189.143 port 35180 ssh2
+Feb 10 15:46:00 ubuntu sshd[48000]: Accepted password for user1 from 192.168.1.10 port 52312 ssh2
+Feb 10 15:47:05 ubuntu sshd[48005]: Failed password for invalid user admin from 203.0.113.25 port 44220 ssh2
+Feb 10 15:48:12 ubuntu sshd[48015]: Accepted password for user2 from 198.51.100.45 port 33522 ssh2
