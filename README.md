@@ -65,7 +65,7 @@ This query:
 - Counts how many times each IP failed
 
 📸 **Screenshot:**  
-![SPL Query Result](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/spl_query_result.png?raw=true)
+![SPL Query Result](https://github.com/Gebrin86/SIEM-Splunk/blob/8ef84a3b30626e341558e2717433fb19512ee081/images/splunk3.png)
 
 ---
 
