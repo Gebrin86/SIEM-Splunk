@@ -51,23 +51,6 @@ splunk-linux-auth-log-analysis/
    ```
    ![Step 3 - Set Index](https://github.com/Gebrin86/SIEM-Splunk/blob/18bada7fa58cc0940018edc4cfea181e008f7a3e/images/splunk1.png)
 
-3. Set the sourcetype to:  
-   ```
-   sourcetype = linux_secure
-   ```
-   ![Step 4 - Set Sourcetype](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step4_set_sourcetype.png?raw=true)
-
-4. Finish setup.  
-   ![Step 5 - Finish](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step5_finish.png?raw=true)
-
-5. Start searching.  
-   ![Step 6 - Search](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/step6_search.png?raw=true)
-
-📸 **Screenshot of Full Upload Process:**  
-![Upload auth.log](https://github.com/YOUR-USERNAME/YOUR-REPO/blob/main/images/upload_auth_log.png?raw=true)
-
----
-
 ### 2. Run This SPL Query in Search
 
 ```spl
